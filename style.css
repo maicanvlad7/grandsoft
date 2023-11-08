@@ -269,6 +269,27 @@ input {
     border-radius: 5px;
 }
 
+.line-gradient-bg {
+    background-image: linear-gradient(to bottom, #0C0C0D 7%, rgba(0, 0, 0, 0) 46%, rgba(0, 0, 0, 0) 96%, #0C0C0D), url(https://assets-global.website-files.com/651a4f8ccbdafaf1c7ddaab5/651a4f8ccbdafaf1c7ddaaba_box.png);
+    background-position: 0 0, 0 0;
+    background-size: auto, 45px;
+}
+
+.more-details {
+    background-color: #18181B;
+    color: white;
+    padding: 5px 10px;
+    border: 2px solid #27272A;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 200ms all ease-in;
+}
+
+.more-details:hover {
+    color: white;
+    border: 2px solid #01DC83;
+}
+
 .gradient-section-cta {
     background: #314755;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #000000, #18181B);  /* Chrome 10-25, Safari 5.1-6 */
